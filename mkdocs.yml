@@ -1,4 +1,5 @@
 site_name: Steam Input Wiki
+repo_url: https://github.com/SteamInputInfo/SteamInputWiki
 theme:
   name: material
   palette:
