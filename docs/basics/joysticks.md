@@ -1,0 +1,3 @@
+# Joysticks
+
+{% include "stub.md" %}

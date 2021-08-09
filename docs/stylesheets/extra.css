@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(
+    145deg,
+    rgba(60, 66, 78, 1) 0%,
+    rgba(35, 38, 47, 1) 100%
+  );
+  background-attachment: fixed;
+}
+
+:root {
+  /* --md-default-fg-color: white; */
+  /* --md-default-fg-color--light: white; */
+  --md-primary-fg-color: #1a9fff;
+  background: #16181f;
+}
+
+@keyframes DeckGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.md-header {
+  background: linear-gradient(
+    137.42deg,
+    #1a75ff,
+    #6a5df8,
+    #c957e6,
+    #d2486b,
+    #bf44ac,
+    #ab47d0,
+    #9460f3,
+    #46aced,
+    #4ec4a3,
+    #b8ba05,
+    #d2486b
+  );
+  background-size: 2200% 2200%;
+  animation: DeckGradient 300s ease infinite;
+}
+
+.md-tabs {
+  background: black;
+}
+
+.md-content {
+  margin-bottom: 10rem;
+}

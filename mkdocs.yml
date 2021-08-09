@@ -1,0 +1,28 @@
+site_name: Steam Input Wiki
+theme:
+  name: material
+  palette:
+    scheme: slate
+  favicon: material/google-controller
+  icon:
+    logo: material/google-controller
+  features:
+    - navigation.instant
+    - navigation.tabs
+extra_css:
+  - /stylesheets/extra.css
+plugins:
+  - awesome-pages
+  - search
+  - macros:
+      include_dir: snippets
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details:
+  - pymdownx.snippets:
+  - pymdownx.tabbed:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - markdown.extensions.admonition:
