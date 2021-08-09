@@ -11,7 +11,7 @@ theme:
     - navigation.instant
     - navigation.tabs
 extra_css:
-  - /stylesheets/extra.css
+  - css/extra.css
 plugins:
   - awesome-pages
   - search
