@@ -4,7 +4,7 @@ Mode shifting is one option (the other being [action layers](./action_layers)) t
 
 For example you can mode shift the right pad from a mouse to a directional pad while the left grip is held down allowing you to use extra controls without taking your thumb off of the right pad.
 
-It is accessed at the top right of the configuration menu for the following inputs:
+Modeshifting is accessed at the top right of the configuration menu for the following inputs:
 
 * The left and right triggers
 * The left and right touchpads
